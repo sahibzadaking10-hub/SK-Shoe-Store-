@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SK Shoes | Luxury Footwear & Bespoke Sneakers</title>
+  <meta name="description" content="Experience unparalleled craftsmanship with SK Shoes. Handcrafted luxury sneakers, oxfords, and boots in signature burgundy, obsidian black, and imperial yellow accents.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 80' fill='none'><path d='M6 46C6 34 16 24 30 20L44 16L60 26L84 32C95 36 102 44 104 50L102 56H2L2 48C4 47 5 46 6 46Z' fill='%23FFD000'/><path d='M38 24L48 20L58 28L48 31L38 24Z' fill='%23000000'/><path d='M0 56H104C105 60 102 66 96 68L84 70C74 70 64 66 54 66C40 66 28 70 14 70L4 68C2 64 1 60 0 56Z' fill='%23000000' stroke='%23FFD000' stroke-width='3'/><text x='24' y='50' font-family='sans-serif' font-weight='900' font-size='16' fill='%23000000'>SK</text></svg>">
+</head>
+<body class="theme-dark">
+
+  <!-- VIP Announcement Bar -->
+  <aside class="announcement-bar" aria-label="Special Offers">
+    <div class="announcement-track">
+      <span>✦ EXCLUSIVE VIP DROP: USE CODE <strong class="highlight-code">SKVIP20</strong> FOR 20% OFF ✦</span>
+      <span>COMPLIMENTARY CONCIERGE SHIPPING WORLDWIDE</span>
+      <span>✦ HANDCRAFTED IN LIMITED EDITIONS ✦</span>
+      <span>USE CODE <strong class="highlight-code">SKVIP20</strong> AT CHECKOUT</span>
+    </div>
+  </aside>
+
+  <!-- Main Navigation Header -->
+  <header class="site-header" id="header">
+    <div class="nav-container">
+      <!-- Brand Logo (Without background, Black & Yellow theme) -->
+      <a href="#" class="brand-logo" aria-label="SK Shoes Homepage">
+        <div class="logo-emblem">
+          <svg width="48" height="34" viewBox="0 0 60 42" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs>
+              <linearGradient id="skLogoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#FFF275"/>
+                <stop offset="60%" stop-color="#FFD000"/>
+                <stop offset="100%" stop-color="#E5A800"/>
+              </linearGradient>
+            </defs>
+            <path d="M5 24C5 18 10 13 17 11L25 9L34 14L47 18C53 20 58 24 59 27L58 30H2L2 26C3 25 4 24 5 24Z" fill="url(#skLogoGrad)" stroke="#000000" stroke-width="1.2"/>
+            <path d="M22 13L27 11L33 15L27 17L22 13Z" fill="#000000"/>
+            <path d="M34 18L43 20L42 22L33 20L34 18Z" fill="#000000"/>
+            <path d="M31 22L40 24L39 26L30 24L31 22Z" fill="#000000"/>
+            <path d="M7 23C7 19 11 15 16 13L15 17C12 18 9 20 9 23H7Z" fill="#000000"/>
+            <path d="M1 30H59C60 32 58 35 55 36L48 37C42 37 36 35 30 35C22 35 15 38 8 38L2 37C1 35 1 32 1 30Z" fill="#000000" stroke="#FFD000" stroke-width="1.5"/>
+            <rect x="14" y="32" width="6" height="3" rx="1.5" fill="#FFD000"/>
+            <rect x="23" y="32" width="6" height="3" rx="1.5" fill="#FFD000"/>
+            <text x="13" y="27" font-family="'Syne', sans-serif" font-weight="900" font-size="9.5" fill="#000000" letter-spacing="-0.5">SK</text>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <div class="brand-title">
+            <span class="logo-sk">SK</span>
+            <span class="logo-shoes">SHOES</span>
+          </div>
+          <span class="brand-sub">HAUTE FOOTWEAR</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="desktop-nav" aria-label="Primary Navigation">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#collection" class="nav-link">Collections</a>
+        <a href="#spotlight" class="nav-link">Spotlight</a>
+        <a href="#heritage" class="nav-link">Craftsmanship</a>
+        <a href="#reviews" class="nav-link">Reviews</a>
+      </nav>
+
+      <!-- Header Action Items -->
+      <div class="header-actions">
+        <!-- Search Trigger -->
+        <button class="action-btn icon-btn" id="searchTriggerBtn" title="Search catalog" aria-label="Search">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        </button>
+
+        <!-- Wishlist Indicator -->
+        <button class="action-btn icon-btn" id="wishlistBtn" title="Wishlist" aria-label="Wishlist">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+          <span class="badge-count" id="wishlistCount">0</span>
+        </button>
+
+        <!-- Cart Trigger -->
+        <button class="action-btn cart-btn" id="cartTriggerBtn" aria-label="Shopping Cart">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+          <span class="cart-label">Cart</span>
+          <span class="badge-count" id="cartCount">0</span>
+        </button>
+
+        <!-- Admin Portal Gateway Button -->
+        <button class="admin-entry-btn" id="adminPortalBtn" title="Open Store Management Portal">
+          <span class="admin-pulse"></span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+          <span class="btn-text">Admin Portal</span>
+        </button>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-toggle-btn" id="mobileMenuBtn" aria-label="Open Navigation Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Live Search Drawer / Bar -->
+    <div class="search-overlay" id="searchOverlay">
+      <div class="search-box-wrap">
+        <svg class="search-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <input type="text" id="storeSearchInput" placeholder="Search by model, style (Sneakers, Oxfords, Boots), color..." autocomplete="off">
+        <button class="search-close-btn" id="searchCloseBtn" aria-label="Close search">&times;</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="drawer-header">
+      <div class="brand-title">
+        <span class="logo-sk">SK</span>
+        <span class="logo-shoes">SHOES</span>
+      </div>
+      <button class="drawer-close-btn" id="drawerCloseBtn">&times;</button>
+    </div>
+    <div class="mobile-links">
+      <a href="#hero" class="mobile-link">Home</a>
+      <a href="#collection" class="mobile-link">Collections</a>
+      <a href="#spotlight" class="mobile-link">Spotlight</a>
+      <a href="#heritage" class="mobile-link">Craftsmanship</a>
+      <a href="#reviews" class="mobile-link">Reviews</a>
+      <button class="mobile-admin-link" id="mobileAdminTrigger">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+        Access Admin Portal
+      </button>
+    </div>
+  </div>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-glow-burgundy"></div>
+      <div class="hero-glow-yellow"></div>
+      
+      <div class="hero-content">
+        <div class="hero-text-col">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            AUTUMN / WINTER 2026 EDITION
+          </div>
+          <h1 class="hero-headline">
+            UNLEASH <span class="text-gradient-burgundy">LUXURY</span><br>
+            COMMAND IN <span class="text-gradient-yellow">GOLD</span>.
+          </h1>
+          <p class="hero-description">
+            Engineered with bespoke Italian calfskin, aero-cushion carbon outsoles, and the iconic SK silhouette. Where uncompromising performance meets boardroom prestige.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#collection" class="btn btn-primary">
+              <span>Explore Collection</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <button class="btn btn-outline" id="heroAdminBtn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+              <span>Admin Access</span>
+            </button>
+          </div>
+
+          <!-- Hero Metrics -->
+          <div class="hero-metrics">
+            <div class="metric-item">
+              <span class="metric-num">500+</span>
+              <span class="metric-lbl">Limited Batches</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-item">
+              <span class="metric-num">4.96 ★</span>
+              <span class="metric-lbl">VIP Client Rating</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-item">
+              <span class="metric-num">100%</span>
+              <span class="metric-lbl">Full Grain Leather</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Showcase -->
+        <div class="hero-visual-col">
+          <div class="hero-card-frame">
+            <div class="hero-card-backdrop"></div>
+            <div class="hero-floating-tag tag-top">
+              <span class="tag-icon">⚡</span>
+              <span>SK Imperial Carbon Edition</span>
+            </div>
+            <div class="hero-image-wrap">
+              <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1000&q=85" alt="SK Signature Royal Burgundy Runner" class="hero-shoe-img" id="heroShoeImg">
+            </div>
+            <div class="hero-floating-tag tag-bottom">
+              <span class="tag-price">$380.00</span>
+              <span class="tag-status">Only 12 Left</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Trust Pillars / Value Props -->
+      <div class="trust-bar">
+        <div class="trust-item">
+          <div class="trust-icon-wrap">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+          <div class="trust-text">
+            <strong>Artisan Craftsmanship</strong>
+            <p>Handcrafted by Tuscan shoemakers</p>
+          </div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon-wrap">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+          </div>
+          <div class="trust-text">
+            <strong>Priority Courier</strong>
+            <p>Complimentary insured 48hr delivery</p>
+          </div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon-wrap">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          </div>
+          <div class="trust-text">
+            <strong>Lifetime Authenticity</strong>
+            <p>Cryptographic NFC verification in every pair</p>
+          </div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon-wrap">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+          </div>
+          <div class="trust-text">
+            <strong>Bespoke Sizing Return</strong>
+            <p>30 days concierge exchange program</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Catalog & Collection Section -->
+    <section class="collection-section" id="collection">
+      <div class="section-container">
+        <div class="section-header">
+          <div class="section-subtitle">SK MASTER ARCHIVE</div>
+          <h2 class="section-title">Curated Footwear Collection</h2>
+          <p class="section-desc">Selected silhouettes dressed in deep burgundy velvets, midnight onyx calfskin, and metallic yellow gold detailing.</p>
+        </div>
+
+        <!-- Filter & Control Panel -->
+        <div class="catalog-controls">
+          <div class="category-tabs" id="categoryTabs">
+            <button class="cat-pill active" data-category="all">All Footwear (<span id="allCount">0</span>)</button>
+            <button class="cat-pill" data-category="Sneakers">Sneakers</button>
+            <button class="cat-pill" data-category="Formal">Formals & Oxfords</button>
+            <button class="cat-pill" data-category="Boots">Boots</button>
+            <button class="cat-pill" data-category="Limited">Limited Edition</button>
+          </div>
+
+          <div class="sorting-controls">
+            <div class="select-wrapper">
+              <label for="sortSelect" class="sr-only">Sort Products</label>
+              <select id="sortSelect" class="custom-select">
+                <option value="featured">Featured First</option>
+                <option value="price-low">Price: Low to High</option>
+                <option value="price-high">Price: High to Low</option>
+                <option value="rating">Highest Rated</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Active Filter Indicator & Reset -->
+        <div class="filter-status-row" id="filterStatusRow" style="display: none;">
+          <span>Showing results for: <strong id="filterQueryText"></strong></span>
+          <button class="clear-filter-btn" id="clearFilterBtn">Clear Filter &times;</button>
+        </div>
+
+        <!-- Product Grid -->
+        <div class="product-grid" id="productGrid">
+          <!-- Dynamically populated by app.js -->
+        </div>
+
+        <!-- Empty State (when search has no match) -->
+        <div class="empty-state" id="emptyState" style="display: none;">
+          <div class="empty-icon">👟</div>
+          <h3>No Silhouettes Found</h3>
+          <p>We couldn't find any shoe matching your criteria. Try adjusting your search query or reset filters.</p>
+          <button class="btn btn-primary" id="resetCatalogBtn">Show All Footwear</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Spotlight Feature: The Burgundy & Gold Masterpiece -->
+    <section class="spotlight-section" id="spotlight">
+      <div class="spotlight-container">
+        <div class="spotlight-visual">
+          <div class="spotlight-img-card">
+            <div class="spotlight-halo"></div>
+            <img src="https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=1000&q=85" alt="SK Obsidian Sovereign Gold" class="spotlight-shoe">
+            <div class="hotspot hotspot-1" data-label="18K Gold Plated Eyelets">
+              <span class="hotspot-dot"></span>
+            </div>
+            <div class="hotspot hotspot-2" data-label="Full-Grain Italian Calfskin">
+              <span class="hotspot-dot"></span>
+            </div>
+            <div class="hotspot hotspot-3" data-label="Vibram Shock Absorption Sole">
+              <span class="hotspot-dot"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="spotlight-details">
+          <div class="spotlight-tag">FLAGSHIP INNOVATION</div>
+          <h2 class="spotlight-title">SK Sovereign Gold & Burgundy X-1</h2>
+          <p class="spotlight-text">
+            Conceived at our Florence atelier, the Sovereign X-1 marries aerodynamic high-performance running geometry with haute horlogerie finishing. Accented with metallic solar yellow lines and encased in imperial burgundy suede trims.
+          </p>
+
+          <div class="spotlight-features-list">
+            <div class="feat-box">
+              <div class="feat-icon">🔥</div>
+              <div>
+                <h4>Triple-Density Cushioning</h4>
+                <p>Proprietary polymer rebound core for 16-hour effortless comfort.</p>
+              </div>
+            </div>
+            <div class="feat-box">
+              <div class="feat-icon">🛡️</div>
+              <div>
+                <h4>Weatherproof Hydro-Shield</h4>
+                <p>Nano-treated leather repels liquids and preserves deep luster.</p>
+              </div>
+            </div>
+            <div class="feat-box">
+              <div class="feat-icon">⚡</div>
+              <div>
+                <h4>Carbon Fiber Stability Shank</h4>
+                <p>Ultralight torsional control engineered for high-torque motion.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="spotlight-action-row">
+            <button class="btn btn-primary" id="spotlightOrderBtn" data-id="1">
+              <span>Order Flagship ($420.00)</span>
+            </button>
+            <span class="spotlight-guarantee">✓ Includes Wooden Shoe Trees & Silk Dustbag</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Heritage & Craftsmanship Section -->
+    <section class="heritage-section" id="heritage">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <div class="section-subtitle">THE SK PHILOSOPHY</div>
+          <h2 class="section-title">Where Obsidian Meets Velvet & Gold</h2>
+          <p class="section-desc">Every pair undergoes 140 meticulous manual steps before reaching your private collection.</p>
+        </div>
+
+        <div class="heritage-grid">
+          <div class="heritage-card">
+            <div class="heritage-num">01</div>
+            <h3>Hand-Selected Tuscan Leather</h3>
+            <p>We source only top-grade full grain hides, naturally tanned using organic barks and dyes to achieve our signature wine-red Burgundy and deep Midnight Onyx.</p>
+          </div>
+          <div class="heritage-card active-border">
+            <div class="heritage-num highlight">02</div>
+            <h3>Goodyear & Blake Stitching</h3>
+            <p>Our artisans employ historical welt construction, ensuring water resistance, unparalleled durability, and soles that can be restored for generations.</p>
+          </div>
+          <div class="heritage-card">
+            <div class="heritage-num">03</div>
+            <h3>Anatomical Arch Ergonomics</h3>
+            <p>Created in collaboration with sports podiatrists, combining athletic carbon fiber shanks with dress-shoe formal contours for royal comfort.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIP Client Reviews -->
+    <section class="reviews-section" id="reviews">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <div class="section-subtitle">AUTHENTIC EXPERIENCES</div>
+          <h2 class="section-title">The Gentlemen & Connoisseurs</h2>
+        </div>
+
+        <div class="reviews-slider">
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">"The Burgundy Velvet Chelsea boots turned heads the moment I walked into the gala. The finish is hypnotic and they feel like slippers straight out of the box."</p>
+            <div class="reviewer-meta">
+              <div class="reviewer-avatar">MR</div>
+              <div>
+                <div class="reviewer-name">Marcus Vance</div>
+                <div class="reviewer-title">Architect & Art Director, Zurich</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">"SK Shoes has achieved the impossible balance: sneaker ergonomics disguised as million-dollar boardroom luxury. The gold stitching is sublime."</p>
+            <div class="reviewer-meta">
+              <div class="reviewer-avatar">DL</div>
+              <div>
+                <div class="reviewer-name">Damian Laurent</div>
+                <div class="reviewer-title">Private Equity Partner, NYC</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">"Ordered the Sovereign Runner. Arrived within 36 hours in London in a lacquered presentation box with golden shoehorn. Unmatched customer care."</p>
+            <div class="reviewer-meta">
+              <div class="reviewer-avatar">SK</div>
+              <div>
+                <div class="reviewer-name">Sophia Sterling</div>
+                <div class="reviewer-title">Fashion Stylist, London</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIP Club Newsletter Signup -->
+    <section class="newsletter-section">
+      <div class="newsletter-card">
+        <div class="nl-badge">SK PRIVATE CIRCLE</div>
+        <h2>Unlock Exclusive Drops & VIP Pre-Access</h2>
+        <p>Join 30,000+ shoe connoisseurs. Receive private invitations to seasonal private drops and an instant $40 voucher.</p>
+        <form class="nl-form" id="newsletterForm">
+          <input type="email" id="nlEmail" placeholder="Enter your private concierge email..." required>
+          <button type="submit" class="btn btn-primary">Join Inner Circle</button>
+        </form>
+        <div class="nl-note">No spam. Only hand-crafted releases and private trunk show invites.</div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Luxury Footer -->
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="brand-logo">
+          <div class="logo-emblem">
+            <svg width="48" height="34" viewBox="0 0 60 42" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <defs>
+                <linearGradient id="skLogoFooterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#FFF275"/>
+                  <stop offset="60%" stop-color="#FFD000"/>
+                  <stop offset="100%" stop-color="#E5A800"/>
+                </linearGradient>
+              </defs>
+              <path d="M5 24C5 18 10 13 17 11L25 9L34 14L47 18C53 20 58 24 59 27L58 30H2L2 26C3 25 4 24 5 24Z" fill="url(#skLogoFooterGrad)" stroke="#000000" stroke-width="1.2"/>
+              <path d="M22 13L27 11L33 15L27 17L22 13Z" fill="#000000"/>
+              <path d="M34 18L43 20L42 22L33 20L34 18Z" fill="#000000"/>
+              <path d="M31 22L40 24L39 26L30 24L31 22Z" fill="#000000"/>
+              <path d="M7 23C7 19 11 15 16 13L15 17C12 18 9 20 9 23H7Z" fill="#000000"/>
+              <path d="M1 30H59C60 32 58 35 55 36L48 37C42 37 36 35 30 35C22 35 15 38 8 38L2 37C1 35 1 32 1 30Z" fill="#000000" stroke="#FFD000" stroke-width="1.5"/>
+              <rect x="14" y="32" width="6" height="3" rx="1.5" fill="#FFD000"/>
+              <rect x="23" y="32" width="6" height="3" rx="1.5" fill="#FFD000"/>
+              <text x="13" y="27" font-family="'Syne', sans-serif" font-weight="900" font-size="9.5" fill="#000000" letter-spacing="-0.5">SK</text>
+            </svg>
+          </div>
+          <div class="logo-text">
+            <div class="brand-title">
+              <span class="logo-sk">SK</span>
+              <span class="logo-shoes">SHOES</span>
+            </div>
+            <span class="brand-sub">BESPOKE FOOTWEAR</span>
+          </div>
+        </div>
+        <p class="footer-desc">Crafting iconic footsteps since 2018. Where high-energy modern design meets bespoke Italian luxury.</p>
+        <div class="color-palette-showcase">
+          <span class="palette-swatch swatch-black" title="Obsidian Black"></span>
+          <span class="palette-swatch swatch-burgundy" title="Royal Burgundy Wine"></span>
+          <span class="palette-swatch swatch-yellow" title="Imperial Solar Yellow"></span>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Silhouettes</h4>
+        <ul>
+          <li><a href="#collection" data-cat="Sneakers">Hyper-Carbon Sneakers</a></li>
+          <li><a href="#collection" data-cat="Formal">Bespoke Italian Oxfords</a></li>
+          <li><a href="#collection" data-cat="Boots">Velvet Chelsea Boots</a></li>
+          <li><a href="#collection" data-cat="Limited">24K Limited Collector</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Concierge</h4>
+        <ul>
+          <li><a href="#" onclick="alert('Concierge Hotline: +1 (800) 757-4637 (24/7 VIP Assistance)'); return false;">VIP 24/7 Support</a></li>
+          <li><a href="#" onclick="alert('Complimentary worldwide express tracking with DHL & FedEx Signature.'); return false;">Global Shipping</a></li>
+          <li><a href="#" onclick="alert('30-day effortless concierge exchanges on all unworn pairs.'); return false;">Returns & Exchanges</a></li>
+          <li><a href="#" onclick="alert('Every SK pair embeds a cryptographic tamper-proof NFC chip in the left tongue.'); return false;">Authenticity Guarantee</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Management Access</h4>
+        <p class="admin-notice">Store administrators and inventory personnel can log in here to manage products, pricing, and orders.</p>
+        <button class="footer-admin-btn" id="footerAdminBtn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+          Open Admin Portal
+        </button>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="copyright">© 2026 SK SHOES ATELIER. All Rights Reserved.</div>
+      <div class="footer-links">
+        <a href="#">Privacy Protocol</a>
+        <span>•</span>
+        <a href="#">Terms of Bespoke Sale</a>
+        <span>•</span>
+        <a href="#">Bespoke Sizing Guide</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ======================================================== -->
+  <!-- MODALS & DRAWERS                                          -->
+  <!-- ======================================================== -->
+
+  <!-- Slide-out Shopping Cart Drawer -->
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping Cart">
+    <div class="drawer-backdrop" id="cartBackdrop"></div>
+    <div class="cart-panel">
+      <div class="cart-header">
+        <div class="cart-title-wrap">
+          <h3>Your Bag</h3>
+          <span class="cart-items-tag" id="cartItemsTag">0 Items</span>
+        </div>
+        <button class="cart-close-btn" id="cartCloseBtn" aria-label="Close Cart">&times;</button>
+      </div>
+
+      <div class="cart-body" id="cartBody">
+        <!-- Rendered items or empty state -->
+      </div>
+
+      <div class="cart-footer" id="cartFooter">
+        <!-- Coupon input -->
+        <div class="coupon-box">
+          <input type="text" id="couponInput" placeholder="Promo code (Try: SKVIP20)" uppercase>
+          <button id="applyCouponBtn">Apply</button>
+        </div>
+        <div class="coupon-msg" id="couponMsg"></div>
+
+        <!-- Price breakdown -->
+        <div class="summary-line">
+          <span>Subtotal</span>
+          <span id="cartSubtotal">$0.00</span>
+        </div>
+        <div class="summary-line" id="discountLine" style="display: none;">
+          <span class="text-gold">VIP Discount (20%)</span>
+          <span class="text-gold" id="cartDiscount">-$0.00</span>
+        </div>
+        <div class="summary-line">
+          <span>White Glove Courier</span>
+          <span class="text-free">FREE</span>
+        </div>
+        <div class="summary-divider"></div>
+        <div class="summary-line total-line">
+          <span>Total</span>
+          <span id="cartTotal">$0.00</span>
+        </div>
+
+        <button class="btn btn-primary btn-checkout" id="checkoutBtn">
+          <span>Secure Checkout</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Quick View Product Modal -->
+  <div class="modal-wrapper" id="quickViewModal">
+    <div class="modal-backdrop" id="quickViewBackdrop"></div>
+    <div class="modal-card quick-view-card">
+      <button class="modal-close-btn" id="quickViewCloseBtn">&times;</button>
+      <div class="quick-view-grid" id="quickViewContent">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Customer Checkout Modal -->
+  <div class="modal-wrapper" id="checkoutModal">
+    <div class="modal-backdrop" id="checkoutBackdrop"></div>
+    <div class="modal-card checkout-card">
+      <button class="modal-close-btn" id="checkoutCloseBtn">&times;</button>
+      <div class="checkout-header">
+        <div class="logo-emblem emblem-sm">
+          <svg width="38" height="27" viewBox="0 0 60 42" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M5 24C5 18 10 13 17 11L25 9L34 14L47 18C53 20 58 24 59 27L58 30H2L2 26C3 25 4 24 5 24Z" fill="#FFD000" stroke="#000000" stroke-width="1.2"/>
+            <path d="M22 13L27 11L33 15L27 17L22 13Z" fill="#000000"/>
+            <path d="M34 18L43 20L42 22L33 20L34 18Z" fill="#000000"/>
+            <path d="M1 30H59C60 32 58 35 55 36L48 37C42 37 36 35 30 35C22 35 15 38 8 38L2 37C1 35 1 32 1 30Z" fill="#000000" stroke="#FFD000" stroke-width="1.5"/>
+            <text x="13" y="27" font-family="'Syne', sans-serif" font-weight="900" font-size="9.5" fill="#000000" letter-spacing="-0.5">SK</text>
+          </svg>
+        </div>
+        <div>
+          <h3>SK Concierge Checkout</h3>
+          <p>Instant order fulfillment & worldwide insured delivery</p>
+        </div>
+      </div>
+
+      <form id="checkoutForm" class="checkout-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="custName">Full Name</label>
+            <input type="text" id="custName" required placeholder="Lord / Lady Johnathan Doe">
+          </div>
+          <div class="form-group">
+            <label for="custEmail">VIP Email</label>
+            <input type="email" id="custEmail" required placeholder="client@luxury.com">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="custAddress">Delivery Address</label>
+          <input type="text" id="custAddress" required placeholder="Avenue Montaigne, Penthouse 4B">
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="custCity">City / Territory</label>
+            <input type="text" id="custCity" required placeholder="Paris / New York / Dubai">
+          </div>
+          <div class="form-group">
+            <label for="custPostal">Postal Code</label>
+            <input type="text" id="custPostal" required placeholder="75008">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Select Payment Method</label>
+          <div class="payment-methods">
+            <label class="pay-option">
+              <input type="radio" name="paymentMethod" value="Card" checked>
+              <div class="pay-label">
+                <span>💳 Black Amex / Visa Infinite</span>
+              </div>
+            </label>
+            <label class="pay-option">
+              <input type="radio" name="paymentMethod" value="ApplePay">
+              <div class="pay-label">
+                <span> Apple Pay / Crypto</span>
+              </div>
+            </label>
+            <label class="pay-option">
+              <input type="radio" name="paymentMethod" value="Concierge">
+              <div class="pay-label">
+                <span>🤝 White Glove Cash On Delivery</span>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <div class="checkout-summary-box">
+          <div class="checkout-total-row">
+            <span>Total Payable:</span>
+            <strong id="checkoutTotalDisplay">$0.00</strong>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block" id="placeOrderBtn">
+          <span>Authorize & Place Order</span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Order Success Confirmation Modal -->
+  <div class="modal-wrapper" id="orderSuccessModal">
+    <div class="modal-backdrop"></div>
+    <div class="modal-card success-card text-center">
+      <div class="success-icon-wrap">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+      </div>
+      <h2>Order Confirmed & Logged</h2>
+      <p class="success-order-num">Order ID: <span id="confirmedOrderId" class="highlight-code">SK-9821</span></p>
+      <p class="success-desc">Thank you for acquiring from SK Shoes. Your bespoke order has been recorded into our atelier registry and sent to the concierge team.</p>
+      <div class="success-actions">
+        <button class="btn btn-primary" id="continueShoppingBtn">Continue Shopping</button>
+        <button class="btn btn-outline" id="viewInAdminBtn">View in Admin Portal</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================== -->
+  <!-- ADMIN PORTAL (LOGIN MODAL & FULL MANAGEMENT DASHBOARD)   -->
+  <!-- ======================================================== -->
+
+  <!-- Admin Login Modal -->
+  <div class="modal-wrapper" id="adminLoginModal">
+    <div class="modal-backdrop" id="adminLoginBackdrop"></div>
+    <div class="modal-card admin-login-card">
+      <button class="modal-close-btn" id="adminLoginCloseBtn">&times;</button>
+      
+      <div class="admin-login-header">
+        <div class="admin-shield-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+        </div>
+        <h3>SK Shoes Management Portal</h3>
+        <p>Restricted access for store administrators & inventory managers</p>
+      </div>
+
+      <!-- Demo Credentials Helper Box -->
+      <div class="credentials-helper-card">
+        <div class="cred-header">
+          <span class="cred-tag">🔑 DEFAULT ADMIN CREDENTIALS</span>
+          <button type="button" class="btn-copy-cred" id="oneClickLoginBtn" title="Click to fill and log in instantly">
+            ⚡ One-Click Auto Login
+          </button>
+        </div>
+        <div class="cred-details">
+          <div>Email: <code>admin@skshoes.com</code></div>
+          <div>Password: <code>admin123</code></div>
+        </div>
+      </div>
+
+      <form id="adminLoginForm" class="admin-form">
+        <div class="form-group">
+          <label for="adminEmail">Admin Email</label>
+          <input type="email" id="adminEmail" required placeholder="admin@skshoes.com">
+        </div>
+        <div class="form-group">
+          <label for="adminPassword">Password</label>
+          <input type="password" id="adminPassword" required placeholder="••••••••">
+        </div>
+        <div class="admin-error-msg" id="adminLoginError"></div>
+        <button type="submit" class="btn btn-primary btn-block">
+          <span>Authenticate & Enter Portal</span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Full-Screen Interactive Admin Portal Overlay / Dashboard -->
+  <div class="admin-portal-dashboard" id="adminDashboard" style="display: none;">
+    <!-- Admin Sidebar -->
+    <aside class="admin-sidebar">
+      <div class="admin-brand">
+        <div class="logo-emblem emblem-sm">
+          <svg width="38" height="27" viewBox="0 0 60 42" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M5 24C5 18 10 13 17 11L25 9L34 14L47 18C53 20 58 24 59 27L58 30H2L2 26C3 25 4 24 5 24Z" fill="#FFD000" stroke="#000000" stroke-width="1.2"/>
+            <path d="M22 13L27 11L33 15L27 17L22 13Z" fill="#000000"/>
+            <path d="M34 18L43 20L42 22L33 20L34 18Z" fill="#000000"/>
+            <path d="M1 30H59C60 32 58 35 55 36L48 37C42 37 36 35 30 35C22 35 15 38 8 38L2 37C1 35 1 32 1 30Z" fill="#000000" stroke="#FFD000" stroke-width="1.5"/>
+            <text x="13" y="27" font-family="'Syne', sans-serif" font-weight="900" font-size="9.5" fill="#000000" letter-spacing="-0.5">SK</text>
+          </svg>
+        </div>
+        <div>
+          <div class="brand-title">
+            <span class="logo-sk">SK</span>
+            <span class="logo-shoes">ATELIER</span>
+          </div>
+          <span class="admin-role-badge">ADMINISTRATOR</span>
+        </div>
+      </div>
+
+      <nav class="admin-nav">
+        <button class="admin-nav-item active" data-tab="overview">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+          Overview
+        </button>
+        <button class="admin-nav-item" data-tab="products">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+          Footwear Inventory
+        </button>
+        <button class="admin-nav-item" data-tab="orders">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+          Customer Orders
+          <span class="admin-pill" id="adminOrderBadge">0</span>
+        </button>
+      </nav>
+
+      <div class="admin-sidebar-footer">
+        <button class="btn-sidebar-store" id="adminExitBtn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path><polyline points="10 17 15 12 10 7"></polyline><line x1="15" y1="12" x2="3" y2="12"></line></svg>
+          Exit to Storefront
+        </button>
+      </div>
+    </aside>
+
+    <!-- Admin Main Body -->
+    <main class="admin-main">
+      <!-- Admin Top Bar -->
+      <div class="admin-topbar">
+        <div class="admin-topbar-left">
+          <h2 id="adminViewTitle">Atelier Overview</h2>
+          <span class="admin-live-badge">● Live Storefront Connected</span>
+        </div>
+        <div class="admin-topbar-right">
+          <button class="btn btn-primary btn-sm" id="adminAddShoeBtn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            Add New Shoe
+          </button>
+          <button class="btn-logout" id="adminLogoutBtn" title="Log out">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg>
+            Sign Out
+          </button>
+        </div>
+      </div>
+
+      <!-- Tab: Overview -->
+      <section class="admin-tab-content active" id="tab-overview">
+        <!-- Stat Cards -->
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-meta">
+              <span class="stat-title">Gross Revenue</span>
+              <span class="stat-trend positive">+18.4%</span>
+            </div>
+            <div class="stat-value" id="statGrossRevenue">$0.00</div>
+            <p class="stat-hint">Calculated from verified customer orders</p>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-meta">
+              <span class="stat-title">Completed Orders</span>
+              <span class="stat-trend positive">Active</span>
+            </div>
+            <div class="stat-value" id="statOrderCount">0</div>
+            <p class="stat-hint">Instant concierge fulfillment</p>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-meta">
+              <span class="stat-title">Catalog Inventory</span>
+              <span class="stat-trend" id="statStockTrend">Healthy</span>
+            </div>
+            <div class="stat-value" id="statProductCount">0</div>
+            <p class="stat-hint">Active footwear listings</p>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-meta">
+              <span class="stat-title">VIP Average Ticket</span>
+              <span class="stat-trend highlight">Gold Class</span>
+            </div>
+            <div class="stat-value" id="statAvgTicket">$365.00</div>
+            <p class="stat-hint">Premium collection average</p>
+          </div>
+        </div>
+
+        <!-- Quick Activity Panels -->
+        <div class="admin-panels-split">
+          <!-- Recent Orders in Dashboard -->
+          <div class="admin-card">
+            <div class="admin-card-header">
+              <h3>Recent Client Orders</h3>
+              <button class="btn-link" id="gotoOrdersBtn">View All</button>
+            </div>
+            <div class="table-responsive">
+              <table class="admin-table">
+                <thead>
+                  <tr>
+                    <th>Order #</th>
+                    <th>Client</th>
+                    <th>Total</th>
+                    <th>Payment</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody id="adminRecentOrdersBody">
+                  <!-- Injected via JS -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Fast Product Stock Health -->
+          <div class="admin-card">
+            <div class="admin-card-header">
+              <h3>Inventory Highlights</h3>
+              <button class="btn-link" id="gotoProductsBtn">Manage Stock</button>
+            </div>
+            <div class="stock-highlights-list" id="stockHighlightsList">
+              <!-- Injected via JS -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab: Products Management -->
+      <section class="admin-tab-content" id="tab-products">
+        <div class="admin-card">
+          <div class="admin-card-header">
+            <div>
+              <h3>SK Footwear Catalog</h3>
+              <p>Add, modify, adjust pricing or remove shoe listings in real-time</p>
+            </div>
+            <button class="btn btn-primary btn-sm" id="adminAddShoeBtn2">
+              + New Shoe Model
+            </button>
+          </div>
+
+          <div class="table-responsive">
+            <table class="admin-table">
+              <thead>
+                <tr>
+                  <th>Shoe</th>
+                  <th>Category</th>
+                  <th>Price</th>
+                  <th>Stock</th>
+                  <th>Badge</th>
+                  <th>Rating</th>
+                  <th class="text-right">Actions</th>
+                </tr>
+              </thead>
+              <tbody id="adminProductsTableBody">
+                <!-- Injected via JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab: Orders Management -->
+      <section class="admin-tab-content" id="tab-orders">
+        <div class="admin-card">
+          <div class="admin-card-header">
+            <div>
+              <h3>Client Orders & Fulfillment</h3>
+              <p>Live tracking of boutique orders with delivery status switcher</p>
+            </div>
+            <button class="btn btn-outline btn-sm" id="adminClearOrdersBtn">
+              Clear Test Orders
+            </button>
+          </div>
+
+          <div class="table-responsive">
+            <table class="admin-table">
+              <thead>
+                <tr>
+                  <th>Order ID</th>
+                  <th>Client Details</th>
+                  <th>Items Acquired</th>
+                  <th>Total Amount</th>
+                  <th>Delivery Address</th>
+                  <th>Status</th>
+                  <th class="text-right">Action</th>
+                </tr>
+              </thead>
+              <tbody id="adminAllOrdersTableBody">
+                <!-- Injected via JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Add / Edit Product Modal (in Admin Portal) -->
+  <div class="modal-wrapper" id="productFormModal">
+    <div class="modal-backdrop" id="productFormBackdrop"></div>
+    <div class="modal-card product-form-card">
+      <button class="modal-close-btn" id="productFormCloseBtn">&times;</button>
+      <div class="modal-form-header">
+        <h3 id="productFormTitle">Add New Shoe to Catalog</h3>
+        <p>Changes will instantaneously reflect on the customer storefront</p>
+      </div>
+
+      <form id="productForm" class="product-crud-form">
+        <input type="hidden" id="editProductId">
+
+        <div class="form-row">
+          <div class="form-group flex-2">
+            <label for="pName">Model Name</label>
+            <input type="text" id="pName" required placeholder="e.g. SK Imperial Velvet Runner">
+          </div>
+          <div class="form-group flex-1">
+            <label for="pCategory">Category</label>
+            <select id="pCategory" required class="custom-select">
+              <option value="Sneakers">Sneakers</option>
+              <option value="Formal">Formal & Oxfords</option>
+              <option value="Boots">Boots</option>
+              <option value="Limited">Limited Edition</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="pPrice">Price (USD)</label>
+            <input type="number" id="pPrice" step="1" min="10" required placeholder="380">
+          </div>
+          <div class="form-group">
+            <label for="pOldPrice">Original / Compare Price (Optional)</label>
+            <input type="number" id="pOldPrice" step="1" placeholder="450">
+          </div>
+          <div class="form-group">
+            <label for="pStock">Stock Units</label>
+            <input type="number" id="pStock" min="0" required placeholder="15">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group flex-1">
+            <label for="pBadge">Badge Tag</label>
+            <input type="text" id="pBadge" placeholder="e.g. LIMITED, NEW, HOT, 20% OFF">
+          </div>
+          <div class="form-group flex-1">
+            <label for="pRating">Initial Rating (1-5)</label>
+            <input type="number" id="pRating" step="0.1" min="1" max="5" value="4.9">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="pImgUrl">Image URL</label>
+          <input type="url" id="pImgUrl" required placeholder="https://images.unsplash.com/...">
+          <div class="img-presets-label">Quick Luxury Presets:</div>
+          <div class="img-presets-list">
+            <button type="button" class="preset-btn" data-url="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80">Burgundy Racer</button>
+            <button type="button" class="preset-btn" data-url="https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=800&q=80">Onyx & Gold</button>
+            <button type="button" class="preset-btn" data-url="https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&w=800&q=80">Burgundy Brogue</button>
+            <button type="button" class="preset-btn" data-url="https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=800&q=80">Combat Boot</button>
+            <button type="button" class="preset-btn" data-url="https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=800&q=80">Leather Loafer</button>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="pDescription">Product Story & Craftsmanship Details</label>
+          <textarea id="pDescription" rows="3" required placeholder="Handcrafted with Italian calfskin, memory foam core..."></textarea>
+        </div>
+
+        <div class="product-form-actions">
+          <button type="button" class="btn btn-outline" id="productFormCancelBtn">Cancel</button>
+          <button type="submit" class="btn btn-primary" id="saveProductBtn">Save Product</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Global Toast Notifications -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
